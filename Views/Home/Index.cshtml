@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<form action="generateNew" method ="post">
+    <div>
+        <h2>Random Passcode</h2>
+    </div>
+    <div>
+        <h2>Passcode # @ViewBag.count</h2>
+    </div>
+    <div>
+        <h1>@ViewBag.RandomPassword</h1>
+    </div>
+    <button>Generate</button>
+</form>
